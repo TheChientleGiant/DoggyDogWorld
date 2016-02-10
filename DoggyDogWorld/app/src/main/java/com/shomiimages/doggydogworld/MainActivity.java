@@ -17,8 +17,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        int x = 1;
-        Log.d("MainActivity", "x is "+x);
+        Dog myDog = new Dog("Doge");
+
+        Dog yourDog = new Dog("Rex");
+
+        myDog.barkAt("a cat");
 
     }
 
